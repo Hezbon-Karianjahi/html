@@ -62,6 +62,7 @@ for(let i=0;i<5;i++){
     names[4]="Mary";
     names[5]='Brayoo';
     console.log(names.length);
+    let wildAnimals=['gitaffe','tiger','cheeter','lion','hyena'];
     
 
 
