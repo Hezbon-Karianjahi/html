@@ -67,6 +67,8 @@ for(let i=0;i<5;i++){
     console.log(wildAnimals.length);
     console.log(wildAnimals[5]);
     console.log(firstName+ " "+secondName+" will be in charge of library servicescd.")
+    console.log(names.length);
+
 
     
   
