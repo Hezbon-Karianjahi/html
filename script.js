@@ -30,6 +30,7 @@ console.log(typeof(groceries))
 
 }
 const body = document.getElementsByTagName("body")[0];
+
 function setColor(name){
     body.style.backgroundColor= name;
 } 
@@ -61,6 +62,7 @@ for(let i=0;i<5;i++){
     console.log(names);
     names[4]="Mary";
     names[5]='Brayoo';
+    names.push("Andrew")
     console.log(names.length);
     let wildAnimals=['gitaffe','tiger','cheeter','lion','hyena'];
     wildAnimals[5]="Zebra";
