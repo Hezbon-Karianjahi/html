@@ -66,6 +66,8 @@ for(let i=0;i<5;i++){
     console.log(names.length);
     let wildAnimals=['gitaffe','tiger','cheeter','lion','hyena'];
     wildAnimals[5]="Zebra";
+    wildAnimals.push("gazelle");
+    console.log(wildAnimals[6])
     console.log(wildAnimals.length);
     console.log(wildAnimals[5]);
     console.log(firstName+ " "+secondName+" will be in charge of library servicescd.")
