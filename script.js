@@ -76,7 +76,7 @@ const dateAndTime= new (Date);
 console.log(dateAndTime);
 let age=18;
 console.log(age);
-if (age=>18){console.log('Welcome to the party!!')} else{console.log('Children are not allowed!!');}
+if (age>=17){console.log('Welcome to the party!!')} else{console.log('Children are not allowed!!');}
 
 
     
