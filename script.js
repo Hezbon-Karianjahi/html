@@ -77,6 +77,11 @@ console.log(dateAndTime);
 let age=18;
 console.log(age);
 if (age<=17){console.log('Welcome to the party!!')} else{console.log('Children are not allowed!!');}
+let m=5;
+let n=6;
+let o=7;
+console.log(m<n && n<o);
+console.log(m>n || n<o);
 
 
 
