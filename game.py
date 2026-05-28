@@ -35,18 +35,26 @@ if answer.lower()== "visual studio code":
 else:
     print("Incorrect")
 answer=input("What does the abbreviation PS stands for?: ")
-if answer.lower()== "Power Supply":
+if answer.lower()== "power supply":
     print("Correct")
 else:
     print("Incorrect")
 answer=input("What does the abbreviation BIOS stands for?: ")
-if answer.lower()== "Basic Input Output System":
+if answer.lower()== "basic input output system":
     print("Correct")
 else:
     print("Incorrect")
 answer=input("What does the abbreviation POST stands for?: ")
-if answer.lower()== "Power On Self Test":
+if answer.lower()== "power on self test":
     print("Correct")
 else:
     print("Incorrect")
-print("Congratulations, you have finished successfully")
+print("Congratulations, you have finished successfully!!")
+name="Hezbon"
+def greet():
+    print("Hello",name)
+greet()
+def add_two_numbers(num1,num2):
+    print(num1+num2) 
+    
+add_two_numbers(60,20)
