@@ -12,3 +12,5 @@ if it_is_raining:
     print("come with umbrella")
 else:
     print("oooops, what is umbrella for????")
+principal_amt=int(input("what is your principal amout?: "))
+print(f"You have put principal amount as Ksh {principal_amt})
