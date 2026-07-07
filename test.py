@@ -7,7 +7,7 @@ if age<=29:
 else:
     print("qualified")
 answer=input("Do you want to play game?: ")
-if answer=='Yes':
+if answer.lower()=='yes':
     print("Welcome we have fun!!")
 else:
     quit()
